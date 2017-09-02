@@ -1,1 +1,22 @@
 theme: jekyll-theme-architect
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+    - jekyll-sitemap
+
+# File rules
+exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md]
+
+# Permalinks
+permalink: /:title/
+
+# Site
+title: ' (●ﾟωﾟ●)'
+description: 'coding blog'
+url: https://sunlubo.github.io
+
+# Setup
+excerpt_separator: <!--excerpt-->
